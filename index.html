@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Grand Luxury Interactive Tree</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- HandTrack.js for gesture recognition -->
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #050505;
+        overflow: hidden;
+        font-family: 'Playfair Display', serif;
+      }
+      
+      #root {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .luxury-text {
+        font-family: 'Cinzel', serif;
+        text-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@react-three/postprocessing": "https://aistudiocdn.com/@react-three/postprocessing@^3.0.4",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.2",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
